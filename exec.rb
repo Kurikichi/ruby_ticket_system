@@ -2,6 +2,7 @@ require './customer'
 require './movie'
 require './ticket'
 require './ticket_vending_machine'
+require 'date'
 
 #customerを作成。nameとmoneyの値を渡している
 customer = Customer.new("takashi", 5000)
