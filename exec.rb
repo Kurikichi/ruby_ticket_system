@@ -34,3 +34,5 @@ oceans_eleven = Movie.new(
 
 #作成したticket_vending_machineクラスのインスタンスのmoviesを更新
 ticket_vending_machine.movies = [titanic, tom_and_jerry, oceans_eleven]
+
+ticket_vending_machine.display_menu
